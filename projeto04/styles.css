@@ -1,1 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+    background-color: #f9f7f1;
+    font-family: 'PT serif' , serif;
+    color: #404040;
+    padding: 0 24px;
+}
+
+h1{
+    font-family: 'Oswald' , sans-serif;
+}
+
 
