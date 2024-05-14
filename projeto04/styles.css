@@ -67,4 +67,19 @@ blockquote::after{
 article ul{
     list-style: emoji;
 }
+img{
+    filter: grayscale(100%);
+}
+figure{
+    margin: 0 0 12px 0;
+    text-align: center;
+}
+figcaption{
+    font: 0.8rem/1.25 'Oswald' , sans-serif;
+}
 
+@media(min-width: 955px){
+    article{
+        column-count: 3;
+    }
+}
