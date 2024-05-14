@@ -81,5 +81,19 @@ figcaption{
 @media(min-width: 955px){
     article{
         column-count: 3;
+        column-rule: 2px solid #333333;
+        column-gap: 42px;
+        margin-top: 36px;
+    }
+
+    blockquote{
+        column-span: all;
+    }
+    figure{
+        break-inside: avoid;
+    }
+    p{
+        text-align: justify;
+        hyphens: auto;
     }
 }
